@@ -3,12 +3,53 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Login</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./estilos/estilos.css'>
-    <script src='./js/javascrip.js'></script>
+    <link rel='stylesheet' href="estilos.css">
+<style>
+body {font-family: Hind,sans-serif; background-color: white; box-sizing: border-box;}
+    form{
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 0 auto;
+        width:300px;
+    }
+    input,textarea {
+        outline: none;
+        border: 3;
+        width: 290px;       
+    }
+    .field{
+        border: solid 1px #999;
+        padding: 5px;
+    }
+    .field:focus{
+        border-color:orangered;
+    }
+    .center-content{
+       text-align: center; 
+    }
+</style>
 </head>
 <body>
-    
+    <div id="contenedor">
+    <center>
+        <img src="img/Plusvalia.PNG">
+   </center>
+    <form action="">
+            <a href="" style="text-decoration:none" ><p> ← Atrás </p></a>
+        <p> Ingresa tu email </p>
+        <input type="password" class="field" autofocus required placeholder="contraseña"><br><br>
+        <a href="registrado.html"> <input type="button" class="btn btn-orange" value="Continuar"> </a>
+        <br> <br><hr> 
+        <p class="center-content"><input type="button" class="btn btn-blue" value="Registrarse con Facebook"></p>
+        <p class="center-content"><input type="button" class="btn btn-white" value="Registrarse con Google"></p>
+        <div id="borRedondeado">
+            <p style="text-align:center"> ¿Eres una inmobiliaria o un profesional y no tienes cuenta? <br>
+              <a href="registro.html" style="text-decoration:none" ><p style="text-align:center"> <span> Registrate Acá </span></p></a>
+            </p>
+        </div>
+    </form>
 </body>
-</html>>
+</html>
