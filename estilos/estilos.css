@@ -323,3 +323,69 @@ form {
 #copyrigth p {
     margin: 25px;
 }
+
+.btn{
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+.btn-orange{
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+}
+
+.btn-orange:hover{
+    background-color: orangered;
+}
+.btn-orange:active{
+    background-color:  orangered;
+}
+
+.btn-blue{
+    color:white;
+    background-color: RoyalBlue;
+    border-color: royalblue;
+    cursor: pointer;
+}
+
+.btn-white{
+    color:black;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+}
+#borRedondeado{
+    width:95%;
+    height: 50%;
+    border:3px solid WhiteSmoke;
+    background-color: WhiteSmoke;
+    border-radius:22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.field{
+    border-radius: 8px;
+}
+p span{
+    color:orangered;
+}
+
+.op{
+    border-radius: 8px;
+    width: 101%;
+}
+
+#contenedor {
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    min-height: 600px;
+  }
