@@ -1,0 +1,195 @@
+.principal{
+    box-shadow: 0px 0px 7px 0px white;
+    display: grid;
+    background-color: white;
+    color: white;
+    border-radius: 20px;
+    margin: 10px;
+    height: 1200px;
+    width: 100%;
+    width: 370px;
+    grid-area: menur;
+    border: 1px solid white;
+    justify-items: center;
+}
+.menu{
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 5448px;
+    width: 316px;
+    overflow: hidden;
+    background: #341338;
+    margin-bottom: 20px;
+    padding: 8px 2px 2px;
+    margin-bottom: -220px;
+    margin-top: -10%;
+    margin-left: -0.9%;
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+}
+
+.mapa{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+a {
+    color: white;
+    font-size: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+.menu a {
+    display: inline-block;
+    color: rgb(237, 195, 241);
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 50px;
+    font-weight: bold;
+    font: 60% sans-serif;
+}
+.principalDos {
+    color: #fff;
+    font: size 10;
+    line-height: 30px;
+    float: left;
+    background-color: #570f53;
+    padding: 0px 0px;
+    font: sans-serif;
+    width: 300px;
+    margin-top: -200%;
+    height: 550px;
+    margin-top: -154%;
+    padding-left: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin-left: -0.9%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+/*Aqui cambia el tipo de letra en p */
+p{
+    color: white;
+    font:16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 0px;
+}
+
+.campo {
+    margin-bottom: 1rem;
+    width: 100%;
+    color: rgb(241, 235, 235);
+}
+.w-111 {
+    display: grid;
+    background-color: #f8652b;
+    border-radius: 10px;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+}
+.w-100 {
+    color: #f4f5f5;
+    font-size: 10px;
+    line-height: 70px;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 2px 70px;
+    font: sans-serif;
+    width: 45%;
+    height: 50px;
+}
+/*Para seleccionar*/
+.sinborde {
+    border: 0;
+}
+select:not(:-internal-list-box) {
+    overflow: visible !important;
+}
+select {
+
+    text-rendering: auto;
+    color: -internal-light-dark(black, white);
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+    cursor: default;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+    border-radius: 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+.w-112 {
+    color: #f4f5f5;
+    font-size: 17px;
+    line-height: 70px;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 9px 3px;
+    font: 10px sans-serif;
+    width: 105px;
+    margin-top: 1%;
+}
+.w-113 {
+    color: #f4f5f5;
+    font-size: 17px;
+    line-height: 70px;
+    float: left;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 9px 3px;
+    font: 60% sans-serif;
+    width: 105px;
+    margin-left: 17%;
+    margin-top: 1%;
+}
+.w-222 {
+    color: #272929;
+    font-size: 15px;
+    line-height: 30px;
+    float: left;
+    background-color: #f4f5f5;
+    border-radius: 10px;
+    padding: 0px 70px;
+    font: 10px sans-serif;
+    width: 45%;
+    margin-top: -4%;
+    height: 50px;
+}
+.w-222 a {
+    display: inline-block;
+    color: rgb(41, 40, 40);
+    text-decoration: none;
+    line-height: normal;
+    padding: 0px 0px 0px 0px;
+}
