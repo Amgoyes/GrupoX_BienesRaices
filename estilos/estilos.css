@@ -68,6 +68,12 @@ ul, a {
     display:block;   
 }
 
+#header-menu li ul {
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+
 #header-menu li:hover ul {
     display: flex;
     justify-content: space-between;
@@ -76,20 +82,13 @@ ul, a {
     width: 100%;
     left: 0;
     border-radius: 0 0 20px 20px;
-    opacity: 1;
-    cursor: pointer; 
+    cursor: pointer;
 }
 
 #header-menu li a:hover {
     color: orangered;
 }
 
-#header-menu li ul {
-    display:none;
-    position:absolute;
-    min-width:140px;
-    transition: opacity 2s;
-}
 
 #public-text span{
     font-weight: bold;
@@ -125,7 +124,7 @@ main {
     width: 100%;
     background-color: #848382;
     min-height: 600px;
-    position: absolute;
+    position: relative;
     z-index: 0;
 }
 
@@ -257,7 +256,7 @@ form {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
-    margin: 30px;
+    margin: 30px 30px 100px 30px;
 }
 
 .item-container {
