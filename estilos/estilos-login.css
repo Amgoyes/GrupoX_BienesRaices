@@ -63,3 +63,27 @@ p span{
     margin-bottom: 40px;
     min-height: 600px;
   }
+
+  body {font-family: Hind,sans-serif; background-color: white; box-sizing: border-box;}
+    form{
+        background-color: white;
+        border-radius: 5px;
+        padding: 20px;
+        margin: 0 auto;
+        width:300px;
+    }
+    input,textarea {
+        outline: none;
+        border: 3;
+        width: 290px;       
+    }
+    .field{
+        border: solid 1px #999;
+        padding: 5px;
+    }
+    .field:focus{
+        border-color:orangered;
+    }
+    .center-content{
+       text-align: center; 
+    }
