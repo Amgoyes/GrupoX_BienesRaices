@@ -1,0 +1,256 @@
+html{
+    height: 100%;
+}
+/*Separo en columnas*/
+.contenedor{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: repeat(3, auto);
+    grid-template-areas: "  header    header   header"
+                          "formulario propiedades propiedades"
+                        
+                          "formulario propiedades propiedades"
+                        
+                            "footer      footer    footer";
+}
+/*Para el encabezado*/
+div {
+    display: block;
+}
+
+ul, a {
+    list-style: none;
+    text-align: left;
+    text-decoration: none;
+}
+
+#header-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    height: 60px;
+    background-color: #f3f3f3;
+    align-items: center;
+    font-size: 15px;
+    position: relative;
+}
+
+#header-logo {
+    display: block;
+}
+
+#header-menu {
+    min-width: 77%;
+}
+
+#header-menu > ul {
+    display: flex;
+    padding: 0px 20px;
+    flex-wrap: wrap;
+}
+
+#public-text span{
+    font-weight: bold;
+}
+
+#button-four-radius {
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+#button-four-radius span {
+    color: white;
+}
+
+#header-menu li a {
+    color: #000;
+	padding: 10px 15px;
+	display: block;
+}
+
+#public-text {
+    margin-right: 25px;
+}
+
+#public-text span:hover {
+    cursor: pointer;
+}
+
+#header-menu li a:hover {
+    color: orangered;
+    cursor: pointer;
+}
+
+#header-menu li ul {
+    display: none;
+	position: absolute;
+    background-color: #e6e6e6   ;
+}
+
+#header-menu li:hover > ul {
+    display:block;
+}
+
+#header-menu li ul li{
+    position: relative;
+}
+
+.show-submenu {
+    display: inline-block;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+}
+/*Empieza los estilos para el formulario izquierdo color morado */
+
+/*Modifica el formulario de la parte izquierda */
+.ubicacion{
+    color:white;
+	font: size 15;
+	line-height:35px;
+    background-color:rgb(83, 51, 124);
+     width: 300px;
+     height: 520px;
+     margin-top: -154%;
+     padding-left: 20px;
+     border-radius:0px 0px 10px 10px ;
+     margin-left: -0.9%;
+}
+/*Modifica el cuadro en general su posicion*/
+.formulario{
+    display: grid;
+    margin: 15px;
+    height: 1200px;
+    width: 370px;
+    grid-area: formulario;
+    border: 1px solid white;
+    justify-items: center;
+}
+/* Modifica el cuadro su poscicion de arriba*/
+.encabezado{
+	text-align: center;
+    display: block;
+    text-transform: uppercase;
+	overflow:hidden; 
+	background:#341338;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+    font-weight: 5448px;
+    width :316px; 
+    margin-bottom:20px;
+    padding: 8px 2px 2px;
+    margin-bottom: -220px;
+    margin-top:-5%;
+    margin-left: -0.9%;
+    height: 60px; 
+    border-radius:10px 10px 0px 0px ;
+}
+/* Modifica el contenido del encabezado (Alquilar-Comprar-Proyectos)*/
+.encabezado a {
+	color:white;
+	padding: 10px 10px;
+	font-size:60px;
+    font-weight:bold;
+    font: 70% sans-serif;
+    	
+}
+/* Modifica el color del encabezado cuando pasen */
+.encabezado a:hover {
+	background: whitesmoke;
+}
+/* Ancho de los botones (ver mapa) */
+.cuerpo{
+	margin-bottom: 20px;
+    width: 80%;  
+}
+/* Modifica la parte de Tipo de inmueble*/
+.a3{
+	font-size:10px;
+	line-height:70px;
+    background-color:white;
+    border-radius:10px;
+    padding:2px 70px;
+    width: 45%;
+    height: 50px;
+}
+/* Modifica el boton Ver mapa*/
+.a2{
+    display: grid;
+    background-color:#f8652b;
+    border-radius:10px;
+    width: 90%;
+}
+/* Modifica el diseño del boton ver mapa*/
+.a2 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	color:white;
+    font-size: 15px;
+}
+/* Modifica los despliegues de la parte Habitaciones (Sin minimo) */
+.a5{
+    float:left;
+    background-color: white;
+    border-radius:10px;
+    padding:7px 5px;
+    font: 10px italic;
+    width: 106px;
+
+}
+/* Modifica los despliegues de la parte Habitaciones (sin maximo)*/
+.a6{
+    float:left;
+    background-color: white;
+    border-radius:10px;
+    padding:7px 5px;
+    font: 10px italic;
+    margin-left: 17%;
+    width: 105px;
+}
+/* Modifica el texto de los cuadros de Ubicacion y Precio */
+.a1{
+    float:left;
+    background-color:white;
+    border-radius:10px;
+    padding:0px 70px;
+    font: 11px sans-serif; 
+    width: 45%;
+    margin-top:-4%;
+    height: 50px;
+}
+/* Modifica el color del texto de Ubicacion y Precio*/
+.a1 a{
+	color:black;
+}
+
+
+/*Cambia de color  el estilo de Ubicacion y Precio*/
+a:hover {
+    color:slategray;
+}
+/* Elimina los bordes rectangulares de las listas*/
+.sinborde {
+    border: 0;
+ 
+}
+
+  
+.propiedades{
+    grid-area: propiedades;
+    font-family: 'Dekko';
+        
+}
+
+.propiedad1-2{
+    text-align: center;
+    border-style: groove;
+    width: 98%;
+    background-color: #eeeeeef3;
+    border-radius: 12px;
+}
+/**/
