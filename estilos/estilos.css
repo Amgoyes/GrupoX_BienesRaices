@@ -6,7 +6,6 @@
 
 body {
     width: 100%;
-    min-height: 100vh;
     background-color: #fff;
 }
 
@@ -18,10 +17,10 @@ div {
     display: block;
 }
 
-ul, a, a:hover {
+ul, a {
     list-style: none;
     text-align: left;
-    text-underline-offset: none;
+    text-decoration: none;
 }
 
 #header-container {
@@ -49,7 +48,6 @@ ul, a, a:hover {
 #header-menu a {
     display:inline-block;
 	color:rgb(24, 22, 22);
-	text-decoration:none;
 	line-height:normal;
 	font-size:20px;
     font-weight:bold;
@@ -70,7 +68,6 @@ ul, a, a:hover {
 
 #header-menu li p {
     color:rgb(48, 43, 43);
-    text-decoration:none;
     padding:10px 12px;
     display:block;   
     line-height:normal;
@@ -83,8 +80,7 @@ ul, a, a:hover {
 #header-menu li ul {
     display:none;
     position:absolute;
-    background-color:  background-color;
-    margin-top: 20px;
+    margin-top: 18px;
 }
 
 #header-menu li:hover ul {
