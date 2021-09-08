@@ -18,10 +18,10 @@ div {
     display: block;
 }
 
-ul, a {
+ul, a, a:hover {
     list-style: none;
     text-align: left;
-    text-decoration: none;
+    text-underline-offset: none;
 }
 
 #header-container {
@@ -32,7 +32,7 @@ ul, a {
     background-color: #f3f3f3;
     align-items: center;
     font-size: 15px;
-    position: relative;
+    justify-content: space-around;
 }
 
 #header-logo {
@@ -50,7 +50,6 @@ ul, a {
     display:inline-block;
 	color:rgb(24, 22, 22);
 	text-decoration:none;
-	padding:10px 20px;
 	line-height:normal;
 	font-size:20px;
     font-weight:bold;
@@ -64,29 +63,42 @@ ul, a {
 #header-menu li a {
     color:rgb(48, 43, 43);
     text-decoration:none;
+    padding: 10px 12px -0px;
+    display:block;
+    justify-content: center;
+}
+
+#header-menu li p {
+    color:rgb(48, 43, 43);
+    text-decoration:none;
     padding:10px 12px;
     display:block;   
+    line-height:normal;
+	font-size:20px;
+    font-weight:bold;
+    font: 150% sans-serif;	
+    margin: 25px 0px;
 }
 
 #header-menu li ul {
     display:none;
     position:absolute;
-    min-width:140px;
+    background-color:  background-color;
+    transition: backgroud-color 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
 
 #header-menu li:hover ul {
     display: flex;
-    justify-content: space-between;
     z-index: 1;
-    background-color: rgb(231, 238, 240);;
-    width: 100%;
-    left: 0;
+    background-color: rgb(231, 238, 240);
+    width: auto;
     border-radius: 0 0 20px 20px;
     cursor: pointer;
+    padding-bottom: 20px;
 }
 
 #header-menu li a:hover {
-    color: orangered;
+    color: orangered;   
 }
 
 
@@ -181,19 +193,34 @@ main #main-section {
     margin-bottom: 40px;
 }
 
-form {
-    display: block;
-    margin-top: 0em;
+.btn-design span {
+    font-size: 16px;
 }
 
-#main-menu ul {
-    display: block;
-    width: 50%;
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    background-color: #f3f3f3;
-    border-radius: 22px 22px 0 0;
+.btn-design > .btn{
+    width: 160px;
+    height: 60px;
+    background-color: rgb(231, 238, 240);
+}
+
+.btn-primero {
+   border-top-left-radius: 22px !important; 
+}
+
+.btn-tercero {
+    border-top-right-radius: 22px !important; 
+ }
+
+.btn-design > .btn:focus, .btn:hover{
+    background-color: #fff !important;
+    font-weight: bold;
+    border: none;
+    outline: inherit;
+}
+
+.btn-dropdown{
+    border-radius: 0 0 0 22px !important;
+    background-color: #fff !important;
 }
 
 #main-menu > ul > li {
