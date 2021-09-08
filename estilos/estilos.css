@@ -84,7 +84,7 @@ ul, a, a:hover {
     display:none;
     position:absolute;
     background-color:  background-color;
-    transition: backgroud-color 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+    margin-top: 20px;
 }
 
 #header-menu li:hover ul {
@@ -97,8 +97,20 @@ ul, a, a:hover {
     padding-bottom: 20px;
 }
 
+.fa-angle-up {
+    display: none !important;
+}
+
 #header-menu li a:hover {
-    color: orangered;   
+    color: orangered;
+}
+
+#header-menu li a:hover .fa-angle-down{
+    display: none !important;
+}
+
+#header-menu li a:hover .fa-angle-up{
+    display: inline !important;
 }
 
 
@@ -123,7 +135,7 @@ ul, a, a:hover {
 }
 
 #public-text {
-    margin-left: 50%;
+    margin-left: 40%;
     margin-right: 25px;
 }
 
