@@ -49,7 +49,7 @@ ul, a {
 	font-size:10px;
 	line-height:70px;
 	float:left;
-    margin: -10px 0px 0px -40px;
+    margin-top: -10px;
 }
 
 #header-menu a {
@@ -296,7 +296,8 @@ a:hover {
 /**/
 /*------footer--------*/
 .footer-container {
-    display: flex;
+    display: inline-block;
+    width: 100%;
     flex-direction: column;
     background-color: #3a0c3d;
     color: white;
@@ -332,7 +333,7 @@ a:hover {
 #copyrigth {
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 14px;
-    height: auto;
+    padding-bottom: 10px;
 }
 
 #copyrigth p {

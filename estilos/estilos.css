@@ -20,7 +20,7 @@ div {
 ul, a {
     list-style: none;
     text-align: left;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 #header-container {
@@ -77,14 +77,18 @@ ul, a {
     margin: 25px 0px;
 }
 
-#header-menu li ul {
-    display:none;
+#header-menu li > ul {
     position:absolute;
     margin-top: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    
 }
 
-#header-menu li:hover ul {
-    display: flex;
+#header-menu li:hover > ul {
+    visibility: visible;
+    opacity: 1;
     z-index: 1;
     background-color: rgb(231, 238, 240);
     width: auto;
@@ -112,6 +116,7 @@ ul, a {
 
 #public-text span{
     font-weight: bold;
+    color: black;
 }
 
 #header-menu > ul{
@@ -132,7 +137,6 @@ ul, a {
 
 #public-text {
     margin-left: 40%;
-    margin-right: 25px;
 }
 
 #public-text span:hover {
@@ -178,7 +182,7 @@ main .background-main > img {
 }
 
 main #main-section {
-    padding: 30px 10px;
+    padding: 30px 30px;
     background-color: rgba(72,69,64,.5);
     border-radius: 20px;
     margin-top: 60px;
@@ -189,7 +193,7 @@ main #main-section {
 
 #main-section {
     width: 100%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 #main-section p {
@@ -211,6 +215,17 @@ main #main-section {
     background-color: rgb(231, 238, 240);
 }
 
+.btn-design-dropdown  {
+    display: flex !important;
+    font-size: 16px;
+}
+
+.btn-design-dropdown > .btn{
+    width: 220px;
+    height: 60px;
+    background-color: rgb(231, 238, 240);
+}
+
 .btn-primero {
    border-top-left-radius: 22px !important; 
 }
@@ -224,6 +239,10 @@ main #main-section {
     font-weight: bold;
     border: none;
     outline: inherit;
+}
+
+.btn-design > .btn:focus span {
+    border-bottom: medium solid orangered;
 }
 
 .btn-dropdown{
@@ -245,6 +264,7 @@ main #main-section {
 }
 #main-select {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
 }
 .select-menu {
@@ -253,8 +273,8 @@ main #main-section {
 }
 
 .select-text {
-    padding: 20px;
-    width: 70%;
+    width: 550px;
+    padding-left: 10px;
 }
 
 .select-button {
@@ -264,6 +284,10 @@ main #main-section {
     background-color: orangered;
     color: white;
     font-weight: bold;
+}
+
+.select-button:hover {
+    color: white;
 }
 /*------------------------*/
 .review-lower {
@@ -317,7 +341,8 @@ main #main-section {
 
 /*------footer--------*/
 .footer-container {
-    display: flex;
+    display: inline-block;
+    width: 100%;
     flex-direction: column;
     background-color: #3a0c3d;
     color: white;
@@ -353,9 +378,11 @@ main #main-section {
 #copyrigth {
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 14px;
-    height: auto;
+    padding-bottom: 10px;
 }
 
 #copyrigth p {
-    margin: 25px;
+    line-height: 20px;
+    padding-top: 25px;
+    margin: 20px;
 }
