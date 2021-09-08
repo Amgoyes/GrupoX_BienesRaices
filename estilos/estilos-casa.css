@@ -6,13 +6,11 @@ html{
     display: grid;
     grid-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: repeat(3, auto);
-    grid-template-areas: "  header    header   header"
-                          "formulario propiedades propiedades"
-                        
-                          "formulario propiedades propiedades"
-                        
-                            "footer      footer    footer";
+    grid-template-areas: repeat(4, auto);
+    grid-template-areas: " header       header       header"
+                          "formulario   propiedades  propiedades"
+                          "formulario   propiedades  propiedades"
+                          "footer       footer       footer";
 }
 /*Para el encabezado*/
 div {
