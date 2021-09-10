@@ -215,24 +215,69 @@ main #main-section {
     background-color: rgb(231, 238, 240);
 }
 
-.btn-design-dropdown  {
-    display: flex !important;
-    font-size: 16px;
-}
-
-.btn-design-dropdown > .btn{
-    width: 220px;
-    height: 60px;
-    background-color: rgb(231, 238, 240);
-}
-
 .btn-primero {
    border-top-left-radius: 22px !important; 
 }
 
 .btn-tercero {
     border-top-right-radius: 22px !important; 
- }
+}
+
+.custom-select {
+    position: relative;
+    font-family: Arial;
+}
+  
+.custom-select select {
+    display: none;
+  }
+  
+  .select-selected {
+    background-color: DodgerBlue;
+}
+  
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+}
+  
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+}
+  
+.select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+    user-select: none;
+}
+
+.select-items {
+    position: absolute;
+    background-color: DodgerBlue;
+    top: 100%;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+  
+.select-hide {
+    display: none;
+}
+  
+.select-items div:hover, .same-as-selected {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
 
 .btn-design > .btn:focus, .btn:hover{
     background-color: #fff !important;
@@ -243,11 +288,6 @@ main #main-section {
 
 .btn-design > .btn:focus span {
     border-bottom: medium solid orangered;
-}
-
-.btn-dropdown{
-    border-radius: 0 0 0 22px !important;
-    background-color: #fff !important;
 }
 
 #main-menu > ul > li {
@@ -273,7 +313,7 @@ main #main-section {
 }
 
 .select-text {
-    width: 550px;
+    width: 500px;
     padding-left: 10px;
 }
 

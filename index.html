@@ -7,9 +7,7 @@
     <title>Plusvalía</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='./estilos/estilos.css'>
-    <link rel="stylesheet" href="estilos/bootstrap.min.css" type="text/css" media="screen">
-    <script src="https://kit.fontawesome.com/3aae8fd4a5.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="estilos/bootstrap.min.css">
 </head>
 
 <body>
@@ -207,21 +205,28 @@
                     <button type="button" class="btn btn-default btn-tercero"><span>Proyectos</span></button>
                 </div>
                 <div id="main-select">
-                    <div class="btn-group btn-design-dropdown" role="group">
-                        <button id="btnGroupDrop1" type="button" class="btn btn-dropdown dropdown-toggle"
-                            data-toggle="dropdown">
-                            Dropdown
-                        </button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Dropdown link</a>
-                            <a class="dropdown-item" href="#">Dropdown link</a>
-                        </div>
-                        <input class="select-text" type="text"
-                            placeholder="Ingrese ubicación o una característica (ejemplo: pileta">
-                        <a class="select-button" href="index-casa.html">
-                            <div>Buscar</div>
-                        </a>
-                    </div>
+                    <div class="custom-select" style="width:200px;">
+                        <select>
+                          <option value="0">Select car:</option>
+                          <option value="1">Audi</option>
+                          <option value="2">BMW</option>
+                          <option value="3">Citroen</option>
+                          <option value="4">Ford</option>
+                          <option value="5">Honda</option>
+                          <option value="6">Jaguar</option>
+                          <option value="7">Land Rover</option>
+                          <option value="8">Mercedes</option>
+                          <option value="9">Mini</option>
+                          <option value="10">Nissan</option>
+                          <option value="11">Toyota</option>
+                          <option value="12">Volvo</option>
+                        </select>
+                      </div>
+                    <input class="select-text" type="text"
+                        placeholder="Ingrese ubicación o una característica (ejemplo: pileta">
+                    <a class="select-button" href="index-casa.html">
+                        <div>Buscar</div>
+                    </a>
                 </div>
             </form>
         </div>
@@ -300,4 +305,6 @@
 </body>
 
 </html>
-<script src="js/bootstrap.min.js"
+<script src="https://kit.fontawesome.com/3aae8fd4a5.js" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
