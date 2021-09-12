@@ -57,6 +57,10 @@ ul, a {
     float:left;
 }
 
+#header-menu span {
+    margin-left: 5px;
+}
+
 #header-menu li a {
     color:rgb(48, 43, 43);
     text-decoration:none;
