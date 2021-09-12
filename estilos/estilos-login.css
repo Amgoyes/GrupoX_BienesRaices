@@ -3,12 +3,21 @@
     display: inline-block;
     padding: 15px 55px;
     text-decoration: none;
+    font-family: Hind,sans-serif;
 }
 .btn-orange{
     color: white;
     background-color: orangered;
     border-color: orangered;
     cursor: pointer;
+    width: 75%;
+}
+.btn-orange1{
+    color: white;
+    background-color: orangered;
+    border-color: orangered;
+    cursor: pointer;
+    width: 98%;
 }
 
 .btn-orange:hover{
@@ -23,6 +32,7 @@
     background-color: RoyalBlue;
     border-color: royalblue;
     cursor: pointer;
+    width: 95%;
 }
 
 .btn-white{
@@ -30,6 +40,7 @@
     background-color: white;
     border-color: white;
     cursor: pointer;
+    width: 95%;
 }
 #borRedondeado{
     width:95%;
@@ -44,25 +55,38 @@
 .field{
     border-radius: 8px;
 }
+.field1{
+    border-radius: 8px;
+    padding: 13px;
+    width: 89%;
+}
+.field2{
+    border-radius: 8px;
+    padding: 13px;
+    width: 89%;
+}
 p span{
     color:orangered;
 }
 
 .op{
-    border-radius: 8px;
-    width: 101%;
+    border-radius: 3px;
+    padding: 13px;
+    width: 107%;
 }
 
 #contenedor {
     width: 50%;
     height: auto;
     margin: 0px auto;
-    border: 1px solid rgba(225, 225, 226, 0.8);
-    box-shadow: 0px 0px 10px #ccc;
+    border: 10px solid rgb(255, 245, 238);
+    box-shadow: 0px 0px 10px rgb(255, 245, 238);
     margin-top: 25px;
     margin-bottom: 25px;
     min-height: 600px;
+    border-radius: 50px;
   }
+
   body {font-family: Hind,sans-serif; background-color: white; box-sizing: border-box;}
     form{
         background-color: white;
@@ -78,9 +102,23 @@ p span{
     }
     .field{
         border: solid 2px gray;
-        padding: 6px;
+        padding: 13px;
+    }
+    .field1{
+        border: solid 2px gray;
+        padding: 11px;
+    }
+    .field2{
+        border: solid 2px gray;
+        padding: 13px;
     }
     .field:focus{
+        border-color:orangered;
+    }
+    .field1:focus{
+        border-color:orangered;
+    }
+    .field2:focus{
         border-color:orangered;
     }
     .center-content{
