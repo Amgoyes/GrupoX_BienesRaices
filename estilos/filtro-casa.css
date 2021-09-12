@@ -286,12 +286,83 @@ a:hover {
 }
 
 .caja1{
-    text-align: center; 
+    text-align: center;
     border-style: groove;
     width: 98%;
-    background-color: #eeeeeef3;
-    border-radius: 12px; 
+    background-color: aliceblue;
+    border-radius: 12px;
+/*Empieza el diseño de las cajas como tal*/
 }
+body{
+    background-color: whitesmoke;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: white;
+    width: 800px;
+    padding: 12px;
+  }
+  /*Bordes para el cuadro*/
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  /*Reduce el tamaño del cuadro*/
+  ul.slider{
+    position: relative;
+    width: 800px;
+    height: 205px;
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:#fff;
+  }
+  /*Reducir el tamaño de la imagen*/
+  ul.slider li img{
+    width: 40%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; /*Mostramos el primer <li>*/
+  }
+  
+  ul.slider li:target {
+      opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 10px;
+  }
+  /*Posicion de los botones*/
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  /*Dimension y color de*/
+  .menu li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color:rebeccapurple;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
 /**/
 /*------footer--------*/
 .footer-container {
