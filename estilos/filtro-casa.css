@@ -83,21 +83,29 @@ ul, a {
     font: 150% sans-serif;	
     margin: 25px 0px;
 }
-
-#header-menu li ul {
-    display:none;
+#header-menu li > ul {
     position:absolute;
-    margin-top: 15px;
+    margin-top: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    
 }
 
-#header-menu li:hover ul {
-    display: flex;
+#header-menu li:hover > ul {
+    visibility: visible;
+    opacity: 1;
     z-index: 1;
     background-color: rgb(231, 238, 240);
     width: auto;
     border-radius: 0 0 20px 20px;
     cursor: pointer;
     padding-bottom: 20px;
+}
+
+.detalles-casa {
+    display: flex;
+    position: relative;
 }
 
 .fa-angle-up {
@@ -207,6 +215,13 @@ ul, a {
 	margin-bottom: 20px;
     width: 80%;  
 }
+
+.cuerpo input{
+	width: 220px;
+    border: none;
+    margin-left: -40px; 
+}
+
 /* Modifica la parte de Tipo de inmueble*/
 .a3{
 	font-size:10px;
@@ -254,17 +269,16 @@ ul, a {
 }
 /* Modifica el texto de los cuadros de Ubicacion y Precio */
 .a1{
-    float:left;
+    text-align: center;
     background-color:white;
     border-radius:10px;
-    padding:0px 70px;
+    padding:5px 70px;
     font: 11px sans-serif; 
     width: 45%;
-    margin-top:-4%;
     height: 50px;
 }
 /* Modifica el color del texto de Ubicacion y Precio*/
-.a1 a{
+.a1 h4{
 	color:black;
 }
 
@@ -366,13 +380,11 @@ body{
   /*Empieza el diseño de los botones de abajo*/
   
   .icono-whatsaap{
-    width: 8%;
+    width: 32px;
     background: rgba(39,210,103,255);
     color: white;
-    font-size: 15px;
     border: none;
     margin-bottom: 50px;
-    padding: 8px;
     border-radius: 35px;
     margin: 1% 0 2%;
 }
@@ -389,6 +401,7 @@ body{
 }
 /*Empieza el diseño del contactar */
 .icono-contactar{
+    border: none;
     display: inline-flex;
     font-size: 14px;
     font-weight: 600;
@@ -410,6 +423,8 @@ body{
     flex-direction: column;
     background-color: #3a0c3d;
     color: white;
+    background-image: url(https://img10.naventcdn.com/home/RPHOMv3.28.0-RC2/bg-footer.bdf46d.svg);
+    background-repeat: no-repeat;
 }
 
 .footer-container img {
@@ -450,7 +465,11 @@ body{
     margin: 25px;
 }
 
-.pruebaaaa {
-    display: flex;
-    position: relative;
+.footer-list-item a {
+    color: white;
+}
+
+
+.footer-list-item a:hover {
+    color: white;
 }
