@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 
-/*Separo en columnas*/
+/*Separo por columnas Hola*/
 .contenedor{
     display: grid;
     grid-gap: 20px;
@@ -465,6 +465,7 @@ body{
     margin: 25px;
 }
 
+<<<<<<< HEAD
 .footer-list-item a {
     color: white;
 }
@@ -473,3 +474,9 @@ body{
 .footer-list-item a:hover {
     color: white;
 }
+=======
+.pruebaaaa {
+    display: flex;
+    position: relative;
+}
+>>>>>>> 9489e06d3b9f520b1a2fb6f12c63695a2e730601
