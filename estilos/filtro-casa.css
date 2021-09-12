@@ -362,7 +362,20 @@ body{
     height: 20px;
     font-size: 20px;
     border-radius: 100%;
-  }
+}
+  .icono-contactar{
+    width: 8%;
+    background: rgba(39,210,103,255);
+    color: white;
+    font-size: 15px;
+    border: none;
+    margin-bottom: 50px;
+    padding: 8px;
+    border-radius: 35px;
+    border-color: rgba(136,148,155,255);
+    margin: 1% 0 2%;
+
+}
 
 
 /**/
