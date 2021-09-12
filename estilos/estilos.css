@@ -61,7 +61,7 @@ ul, a {
 #header-menu li a {
     color:rgb(48, 43, 43);
     text-decoration:none;
-    padding: 10px 12px -0px;
+    padding: 10px 12px 5px;
     display:block;
     justify-content: center;
 }
@@ -225,12 +225,7 @@ main #main-section {
 
 .custom-select {
     position: relative;
-    font-family: Arial;
 }
-  
-.custom-select select {
-    display: none;
-  }
   
   .select-selected {
     background-color: DodgerBlue;

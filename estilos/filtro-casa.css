@@ -313,7 +313,7 @@ body{
   /*Reduce el tamaño del cuadro*/
   ul.slider{
     position: relative;
-    width: 800px;
+    width: 45%;
     height: 205px;
   }
   
@@ -329,7 +329,7 @@ body{
   }
   /*Reducir el tamaño de la imagen*/
   ul.slider li img{
-    width: 40%;
+    width: 300px;
     height: 200px;
     object-fit: cover;
   }
@@ -409,4 +409,9 @@ body{
 #copyrigth p {
     line-height: 20px;
     margin: 25px;
+}
+
+.pruebaaaa {
+    display: flex;
+    position: relative;
 }
