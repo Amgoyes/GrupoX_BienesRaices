@@ -297,11 +297,11 @@ body{
     background-color: whitesmoke;
     font-family: sans-serif;
   }
-  
+  /*Tamaño del cuadro*/
   .container{
     margin: auto;
     background-color: white;
-    width: 800px;
+    width: 990px;
     padding: 12px;
   }
   /*Bordes para el cuadro*/
@@ -313,7 +313,7 @@ body{
   /*Reduce el tamaño del cuadro*/
   ul.slider{
     position: relative;
-    width: 45%;
+    width: 32%;
     height: 205px;
   }
   
@@ -341,7 +341,7 @@ body{
   ul.slider li:target {
       opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
   }
-  
+  /*Empieza la parte de los circulos*/
   .menu{
     text-align: center;
     margin: 10px;
@@ -363,6 +363,8 @@ body{
     font-size: 20px;
     border-radius: 100%;
   }
+
+
 /**/
 /*------footer--------*/
 .footer-container {
