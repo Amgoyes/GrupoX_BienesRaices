@@ -362,8 +362,9 @@ body{
     height: 20px;
     font-size: 20px;
     border-radius: 100%;
-}
-  .icono-contactar{
+  }
+  /*Empieza el diseño de los botones de abajo*/
+  .icono-whatsaap{
     width: 8%;
     background: rgba(39,210,103,255);
     color: white;
@@ -372,9 +373,29 @@ body{
     margin-bottom: 50px;
     padding: 8px;
     border-radius: 35px;
-    border-color: rgba(136,148,155,255);
     margin: 1% 0 2%;
+}
+.icono-corazon{
+    width: 9%;
+    background: white;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 45px;
+    margin: 1% 0 1%;
+    border: 0.5px solid rgb(255, 85, 0);
 
+}
+.icono-contactar{
+    display: inline-flex;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 41px;
+    color: #fff;
+    padding: 0 20px;
+    border-radius: 12px;
+    transition: background-color .3s;
+    background-color: coral;
+    margin-left: 15px;
 }
 
 
