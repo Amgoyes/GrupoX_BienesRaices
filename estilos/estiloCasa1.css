@@ -1,0 +1,193 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Hind,sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+}
+
+html {
+    line-height: 1.15;
+}
+
+div {
+    display: block;
+}
+
+ul, a {
+    list-style: none;
+    text-align: left;
+    text-decoration: none !important;
+}
+/*Cabecera*/
+#header-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    height: 60px;
+    background-color: #f3f3f3;
+    align-items: center;
+    font-size: 15px;
+    justify-content: space-around;
+}
+
+#header-logo {
+    display: block;
+}
+
+#header-menu {
+    color:#f3f3f3;
+	font-size:10px;
+	line-height:70px;
+	float:left;
+}
+
+#header-menu a {
+    display:inline-block;
+	color:rgb(24, 22, 22);
+	line-height:normal;
+	font-size:20px;
+    font-weight:bold;
+    font: 150% sans-serif;	
+}
+
+#header-menu > li {
+    float:left;
+}
+
+#header-menu li a {
+    color:rgb(48, 43, 43);
+    text-decoration:none;
+    padding: 10px 12px 5px;
+    display:block;
+    justify-content: center;
+}
+
+#header-menu li p {
+    color:rgb(48, 43, 43);
+    padding:10px 12px;
+    display:block;   
+    line-height:normal;
+	font-size:20px;
+    font-weight:bold;
+    font: 150% sans-serif;	
+    margin: 25px 0px;
+}
+
+#header-menu li > ul {
+    position:absolute;
+    margin-top: 18px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s linear;
+    
+}
+
+#header-menu li:hover > ul {
+    visibility: visible;
+    opacity: 1;
+    z-index: 1;
+    background-color: rgb(231, 238, 240);
+    width: auto;
+    border-radius: 0 0 20px 20px;
+    cursor: pointer;
+    padding-bottom: 20px;
+}
+
+.fa-angle-up {
+    display: none !important;
+}
+
+#header-menu li a:hover {
+    color: orangered;
+}
+
+#header-menu li a:hover .fa-angle-down{
+    display: none !important;
+}
+
+#header-menu li a:hover .fa-angle-up{
+    display: inline !important;
+}
+
+
+#public-text span{
+    font-weight: bold;
+    color: black;
+}
+
+#header-menu > ul{
+    display:block;
+}
+
+#button-four-radius {
+    color: white;
+    background-color: orangered;
+    border-radius: 10px;
+    text-align: center;
+    padding: 12px;
+}
+
+#button-four-radius span {
+    color: white;
+}
+
+#public-text {
+    margin-left: 40%;
+}
+
+#public-text span:hover {
+    cursor: pointer;
+}
+/*Main*/
+
+/*Footer*/
+.footer-container {
+    display: inline-block;
+    width: 100%;
+    flex-direction: column;
+    background-color: #3a0c3d;
+    color: white;
+}
+
+.footer-container img {
+    margin: 50px 0 10px 10px;
+}
+
+.footer-container-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 0px 50px;
+}
+
+.footer-list-item {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.footer-list-item span {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.footer-list-item li {
+    margin: 5px 0 5px 20px;
+}
+
+#copyrigth {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#copyrigth p {
+    line-height: 20px;
+    padding-top: 25px;
+    margin: 20px;
+}
