@@ -8,7 +8,7 @@ body {
     width: 100%;
 }
 
-/*Separo por columnas*/
+/*Separo por columnas Hola*/
 .contenedor{
     display: grid;
     grid-gap: 20px;
