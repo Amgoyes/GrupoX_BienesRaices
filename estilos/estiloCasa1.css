@@ -61,7 +61,7 @@ ul, a {
 #header-menu li a {
     color:rgb(48, 43, 43);
     text-decoration:none;
-    padding: 10px 12px 5px;
+    padding: 2px 12px 5px;
     display:block;
     justify-content: center;
 }
@@ -149,8 +149,10 @@ ul, a {
     display: inline-block;
     width: 100%;
     flex-direction: column;
-    background-color: #3a0c3d;
     color: white;
+    background-color: #3a0c3d;
+    background-image: url(https://img10.naventcdn.com/home/RPHOMv3.28.0-RC2/bg-footer.bdf46d.svg);
+    background-repeat: no-repeat;
 }
 
 .footer-container img {
@@ -168,6 +170,15 @@ ul, a {
     display: flex;
     flex-direction: column;
     font-size: 14px;
+}
+
+.footer-list-item a {
+    color: white;
+}
+
+
+.footer-list-item a:hover {
+    color: white;
 }
 
 .footer-list-item span {
