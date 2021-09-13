@@ -180,12 +180,29 @@ ul, a {
 #imagena{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    height: 425px ;
 }
 #imagenb{
     border-top-right-radius: 10px;
+    height: 190.25px ;
+    width: 300.41px;
+}
+#imagend{
+    height: 190.25px ;
+    width: 300.41px;
+}
+#imagenf{
+    height: 190.25px ;
+    width: 300.41px;
+}
+#imagene{
+    height: 190.25px ;
+    width: 300.41px;
 }
 #imagenc{
     border-bottom-right-radius: 10px;
+    height: 190.25px ;
+    width: 300.41px;
 }
 /*Botón*/
 .btn_ver{
