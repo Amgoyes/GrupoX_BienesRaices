@@ -8,13 +8,11 @@ body {
     width: 100%;
 }
 
-/*Separo por columnas Hola*/
+/*Separo por columnas*/
 .contenedor{
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-areas: repeat(4, auto);
-    grid-template-areas: " header       header       header"
+    grid-template-areas: " .                 .            ."
                           "formulario   propiedades  propiedades"
                           "formulario   propiedades  propiedades"
                           "footer       footer       footer";
