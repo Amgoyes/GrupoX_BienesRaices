@@ -241,7 +241,7 @@ input, textarea{
 }
 .contactar{
     width: 100%;
-    background: rgba(255,84,1,255);
+    background: orangered;
     color: white;
     font-size: 15px;
     border: 0px; 
@@ -249,18 +249,18 @@ input, textarea{
     margin-bottom: 20px;
     padding: 13px;
     border-radius: 8px;
-    border-color: rgba(136,148,155,255);
+    border-color: orangered;
 }
 .ws{
     width: 100%;
-    background: rgba(39,210,103,255);
+    background: green;
     color: white;
     font-size: 15px;
     border: none;
     margin-bottom: 20px;
     padding: 13px;
     border-radius: 8px;
-    border-color: rgba(136,148,155,255);
+    border-color: green;
     margin: 0% 0 3%;
 }
 .mensaje{
